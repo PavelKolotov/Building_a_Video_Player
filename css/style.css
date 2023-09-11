@@ -1,0 +1,15 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    height: 30px;
+    width: 30px;
+}
+
+.btn-icon {
+    color: white;
+}
+
+.button-container {
+    background: black;
+}
