@@ -1,6 +1,6 @@
 # Building_a_Video_Player
 
-Кастомизированный видеоплеер, построенный на базе библиотеки Playable.
+[Кастомизированный видеоплеер](https://pavelkolotov.github.io/Building_a_Video_Player/), построенный на базе библиотеки Playable.
 
 ![example](image/player.png)
 
