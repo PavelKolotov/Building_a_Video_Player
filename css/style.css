@@ -2,12 +2,13 @@
     border: none;
     cursor: pointer;
     background: transparent;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
 }
 
 .btn-icon {
     color: white;
+    font-size: 200%;
 }
 
 .media-player {
