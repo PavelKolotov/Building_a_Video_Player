@@ -12,6 +12,7 @@
     font-size: 200%;
 }
 
+
 .media-player {
     display: flex;
     flex-direction: column;
@@ -25,6 +26,13 @@
     display: flex;
     background: black;
 }
+
+.button-fullscreen {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
 
 .shadow-dark {
     box-shadow: 0 0 15px rgba(0,0,0,1);
