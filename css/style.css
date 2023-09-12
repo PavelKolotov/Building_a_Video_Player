@@ -10,6 +10,15 @@
     color: white;
 }
 
+.media-player {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-container {
+    flex-grow: 1
+}
+
 .button-container {
     background: black;
 }
