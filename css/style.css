@@ -5,13 +5,9 @@
     height: 50px;
     width: 50px;
     margin-right: 20px;
-}
-
-.btn-icon {
     color: white;
-    font-size: 200%;
+    font-size: 24px;
 }
-
 
 .media-player {
     display: flex;
@@ -27,12 +23,9 @@
     background: black;
 }
 
-.button-fullscreen {
-    flex-grow: 1;
-    text-align: right;
-    margin-right: 10px;
+.button-container .btn:last-child {
+    margin-right: 0;
 }
-
 
 .shadow-dark {
     box-shadow: 0 0 15px rgba(0,0,0,1);
