@@ -18,6 +18,7 @@
     display:flex;
     flex-grow: 1;
     padding-right: 5px;
+    transition-property: opacity;
 }
 
 .button-container {
@@ -69,5 +70,13 @@
     border-width: 2px;
     border-color: white;
     margin: 0 0 4px -17px;
+    opacity: 0;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
 
+.video-container:hover .progress-bar-thumb {
+    opacity: 1;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
 }
