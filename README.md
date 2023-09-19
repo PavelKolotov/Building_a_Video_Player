@@ -2,7 +2,7 @@
 
 [Кастомизированный видеоплеер](https://pavelkolotov.github.io/Building_a_Video_Player/), построенный на базе библиотеки Playable.
 
-![example](image/player.png)
+![example](image/player2.png)
 
 ## Как подключить
 
