@@ -15,7 +15,9 @@
 }
 
 .video-container {
-    flex-grow: 1
+    display:flex;
+    flex-grow: 1;
+    padding-right: 5px;
 }
 
 .button-container {
@@ -23,12 +25,14 @@
     background: black;
 }
 
-.button-container .btn:first-child {
+.button-container .btn:nth-child(1),
+.button-container .btn:nth-child(2) {
     margin-right: 4px;
 }
 
 .shadow-dark {
     box-shadow: 0 0 15px rgba(0,0,0,1);
+    background-color: #000;
 }
 
 .time-display {
@@ -42,4 +46,28 @@
 
 .duration {
     padding: 7px 3px 0 0;
+}
+
+.progress-bar {
+    display: flex;
+    align-self: center;
+    border-radius: 20px;
+    background-color: #f8104d;
+    height: 5px;
+    margin: 0 10px 5px 10px;
+
+}
+
+.progress-bar-thumb {
+    display: flex;
+    align-self: center;
+    height: 9px;
+    width: 9px;
+    background-color: #f8104d ;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin: 0 0 4px -17px;
+
 }
