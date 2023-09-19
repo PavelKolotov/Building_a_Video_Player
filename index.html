@@ -3,7 +3,9 @@
 <head>
   <title>Пример подключения плеера</title>
   <link rel="icon" type="image/png" href="image/favicon.png">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <meta charset="utf-8">
@@ -16,7 +18,11 @@
       <button class="btn js-pause-button" hidden><i class="fa fa-pause"  aria-hidden="true"></i></button>
       <button class="btn js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
       <button class="btn js-mute-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+
+      <span class="js-current-time time-display current-time"></span>
       <div class="video-container"></div>
+      <span class="js-duration time-display duration"></span>
+
       <button class="btn js-fullscreen-button"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
     </div>
 

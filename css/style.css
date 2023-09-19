@@ -4,8 +4,7 @@
     background: transparent;
     height: 35px;
     width: 35px;
-    margin-right: 3px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     color: white;
     font-size: 20px;
 }
@@ -24,10 +23,23 @@
     background: black;
 }
 
-.button-container .btn:last-child {
-    margin-right: 0;
+.button-container .btn:first-child {
+    margin-right: 4px;
 }
 
 .shadow-dark {
     box-shadow: 0 0 15px rgba(0,0,0,1);
+}
+
+.time-display {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.current-time {
+    padding: 7px 0 0 0;
+}
+
+.duration {
+    padding: 7px 3px 0 0;
 }
