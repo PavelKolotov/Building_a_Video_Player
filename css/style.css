@@ -1,6 +1,5 @@
 .btn {
     border: none;
-    cursor: pointer;
     background: transparent;
     height: 35px;
     width: 35px;
@@ -42,11 +41,11 @@
 }
 
 .current-time {
-    padding: 7px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .duration {
-    padding: 7px 3px 0 0;
+    padding: 10px 3px 0 0;
 }
 
 .progress-bar {
