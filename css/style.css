@@ -3,78 +3,82 @@
     background: transparent;
     height: 35px;
     width: 35px;
-    margin-bottom: 4px;
-    color: white;
+    color: #ffffff;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .media-player {
     display: flex;
     flex-direction: column;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 15px #000000;
+    background-color: #000000;
 }
 
 .video-container {
-    display:flex;
+    display: flex;
     flex-grow: 1;
-    padding-right: 5px;
-    transition-property: opacity;
+}
+
+.video-timeline {
+    font-size: 16px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
 }
 
 .button-container {
     display: flex;
-    background: black;
+    background-color: #000000;
+    padding-bottom: 4px;
 }
 
-.button-container .btn:nth-child(1),
-.button-container .btn:nth-child(2) {
+.js-play-button,
+.js-pause-button {
     margin-right: 4px;
 }
 
-.shadow-dark {
-    box-shadow: 0 0 15px rgba(0,0,0,1);
-    background-color: #000;
-}
-
 .time-display {
-    color: white;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
-.current-time {
-    padding: 10px 0 0 0;
-}
-
-.duration {
-    padding: 10px 3px 0 0;
-}
-
 .progress-bar {
+    display: flex;
+    flex-grow: 1;
+    transition-property: opacity;
+    padding: 0 10px;
+}
+
+.progress-bar__line {
     display: flex;
     align-self: center;
     border-radius: 20px;
     background-color: #f8104d;
     height: 5px;
-    margin: 0 10px 5px 10px;
-
+    cursor: pointer;
+    position: relative;
+    padding: 0 5px;
 }
 
-.progress-bar-thumb {
-    display: flex;
-    align-self: center;
-    height: 9px;
-    width: 9px;
-    background-color: #f8104d ;
+.progress-bar__thumb {
+    height: 8px;
+    width: 8px;
+    background-color: #f8104d;
     border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    margin: 0 0 4px -17px;
-    opacity: 0;
+    border: 3px solid #ffffff;
+    opacity: 1;
     transition-duration: 300ms;
     transition-timing-function: ease-out;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -5px;
 }
 
-.video-container:hover .progress-bar-thumb {
+.progress-bar:hover .progress-bar__thumb {
     opacity: 1;
     transition-duration: 300ms;
     transition-timing-function: ease-in;

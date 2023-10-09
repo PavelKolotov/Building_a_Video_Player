@@ -12,19 +12,22 @@
   <meta charset="utf-8">
 </head>
 <body>
-  <div id="player" class="media-player shadow-dark" style="width: 800px; height: 600px;">
+  <div id="player" class="media-player">
     <div class="js-video-container video-container"></div>
     <div class="button-container">
       <button class="btn js-play-button"><i class="fa fa-play"  aria-hidden="true"></i></button>
       <button class="btn js-pause-button" hidden><i class="fa fa-pause"  aria-hidden="true"></i></button>
       <button class="btn js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
       <button class="btn js-mute-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-      <span class="js-current-time time-display current-time"></span>
-      <div class="js-progress video-container">
-        <div class="js-progress-slider progress-bar"></div>
-        <div class="progress-bar-thumb"></div>
+      <div class="video-timeline" >
+        <span class="js-current-time time-display current-time"></span>
+        <div class="js-progress progress-bar">
+          <div class="js-progress-slider progress-bar__line">
+            <div class="progress-bar__thumb"></div>
+          </div>
+        </div>
+        <span class="js-duration time-display duration"></span>
       </div>
-      <span class="js-duration time-display duration"></span>
       <button class="btn js-fullscreen-button"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
     </div>
 
