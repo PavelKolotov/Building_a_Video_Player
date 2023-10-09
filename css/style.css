@@ -69,12 +69,12 @@
     background-color: #f8104d;
     border-radius: 50%;
     border: 3px solid #ffffff;
-    opacity: 1;
+    opacity: 0;
     transition-duration: 300ms;
     transition-timing-function: ease-out;
     cursor: pointer;
     position: absolute;
-    right: 0;
+    right: -5px;
     top: -5px;
 }
 
